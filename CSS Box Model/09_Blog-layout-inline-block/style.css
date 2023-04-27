@@ -1,0 +1,27 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    margin: 40px;
+}
+
+img {
+    width: 600px;
+}
+
+article {
+    margin-right: 35rem;
+}
+
+section {
+    margin-top: 3rem;
+}
+
+aside {
+    font-size: 18px;
+    float: right;
+    margin-right: 100px;
+}
