@@ -1,0 +1,33 @@
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+body {
+    margin: 0;
+}
+
+.viewport:first-of-type {
+    background: linear-gradient(to right, #a73178, #d28211);
+}
+
+.viewport {
+    height: 50vh;
+    position: relative;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i {
+    position: absolute;
+    right: 6px;
+    bottom: 12px;
+    color: #fff;
+}
