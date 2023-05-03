@@ -1,0 +1,32 @@
+body {
+    margin: 3rem 4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, sans-serif;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+header h1 {
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+li {
+    padding: 15px;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+}
+
+p {
+    font-family: Arial, sans-serif;
+}
