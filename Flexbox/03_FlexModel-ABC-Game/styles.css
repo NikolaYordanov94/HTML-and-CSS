@@ -1,0 +1,69 @@
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    max-width: 15vw;
+    height: 40rem;
+    gap: 0.8rem;
+    margin: 4rem 4rem;
+}
+
+span {
+    padding: 30px 60px;
+    border: 1px solid black;
+    text-align: center;
+    width: 30px;
+}
+
+.H {
+    order: 1;
+}
+
+.T {
+    order: 2;
+}
+
+.M {
+    order: 3;
+}
+
+.L {
+    order: 4;
+}
+
+.S {
+    order: -8;
+}
+
+.e {
+    order: -7;
+}
+
+.m {
+    order: -6;
+}
+
+.a {
+    order: -5;
+}
+
+.n {
+    order: -4;
+}
+
+.t {
+    order: -3;
+}
+
+.i {
+    order: -2;
+}
+
+.c {
+    order: -1;
+}
