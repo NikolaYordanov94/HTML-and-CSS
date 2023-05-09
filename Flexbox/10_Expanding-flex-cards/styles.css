@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    background-color: rgb(238, 238, 238);
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 20px;
+}
+
+img {
+    transition: width 300ms;
+    width: 120px;
+    height: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 100px 1px #888888;
+}
+
+img:hover {
+    width: 500px;
+}
+
+img:nth-child(2) {
+    width: 500px;
+}
