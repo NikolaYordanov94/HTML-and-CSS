@@ -1,0 +1,32 @@
+@media screen and (max-width: 500px) {
+    body {
+        display: grid;
+        grid-template-areas:
+            'header header'
+            'aside aside'
+            'main main'
+            'footer footer';
+    }
+
+    header h1 {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    header nav,
+    header nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        display: block;
+    }
+
+    nav ul {
+        margin: 0px;
+        padding: 0px;
+    }
+}
