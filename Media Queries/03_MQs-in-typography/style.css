@@ -1,0 +1,79 @@
+body {
+    margin: 4rem 6rem;
+    background-color: rgb(238, 238, 238);
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.base {
+    font-size: 0px;
+    width: 80%;
+}
+
+ul {
+    padding-left: 30px;
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.page>* {
+    font-size: 16px;
+}
+
+header {
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+}
+
+h2,
+h3 {
+    font-family: Georgia, serif;
+}
+
+.first-image {
+    float: right;
+    margin-left: 20px;
+    height: 200px;
+}
+
+.second-image {
+    float: left;
+    margin-right: 20px;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 4px solid black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+blockquote {
+    margin-top: 0;
+    border-left: 3px solid lightgray;
+    font-family: Georgia, serif;
+    font-style: italic;
+    float: right;
+    width: 50%;
+    color: rgb(52, 52, 52);
+}
+
+blockquote p {
+    margin-left: 40px;
+}
+
+.author {
+    float: right;
+}
