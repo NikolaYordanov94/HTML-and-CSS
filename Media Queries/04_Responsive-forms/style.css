@@ -1,0 +1,75 @@
+@import url('https://use.fontawesome.com/releases/v5.13.0/css/all.css');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    height: 210px;
+    width: 400px;
+}
+
+.form {
+    display: block;
+}
+
+.form>* {
+    margin: 20px 10px;
+}
+
+.loginBtn {
+    border: none;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 30px 10px 15px 10px;
+    cursor: pointer;
+}
+
+.loginP {
+    top: -39px;
+    left: -1.9px;
+    position: absolute;
+    padding: 10px 100px 10px 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: white;
+}
+
+input {
+    width: 85%;
+    border: none;
+}
+
+input:focus {
+    background-color: lightcyan;
+}
+
+.inputGroup {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.double {
+    border: 2px solid lightgray;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+}
