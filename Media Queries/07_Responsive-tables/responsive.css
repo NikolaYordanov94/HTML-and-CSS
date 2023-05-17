@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+
+    th,
+    tr:first-child {
+        background-color: transparent;
+        color: black;
+    }
+}
