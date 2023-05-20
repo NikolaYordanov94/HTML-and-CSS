@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.3.0/css/all.css');
+
+body {
+    font-family: 'Inter', sans-serif
+}
+
+.main {
+    background: url("image/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 600px;
+    width: 1160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 30px;
+}
+
+.first-card {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.first-card ul {
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 50px;
+}
+
+button {
+    margin-left: 36px;
+    padding: 10px 20px;
+    background-color: hsl(0deg 0% 0%);
+    color: white;
+    border-radius: 4px;
+}
+
+.first-card p {
+    margin-top: 10px;
+    margin-left: 36px;
+    color: hsl(30deg 40% 1.96%);
+}
+
+.first-card h1 {
+    margin-left: 36px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.first-card .price {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.first-card .small-text {
+    font-size: 10px;
+    color: hsl(60deg 3.63% 62.16%);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.second-card {
+    background-color: white;
+    height: 460px;
+    width: 300px;
+    margin-top: 70px;
+    color: hsl(30deg 40% 1.96%);
+}
+
+.second-card ul {
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 70px;
+}
+
+.second-card p {
+    margin-top: 10px;
+    margin-left: 36px;
+}
+
+.second-card h1 {
+    margin-left: 36px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.second-card .price {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.second-card .small-text {
+    font-size: 10px;
+    color: hsl(60deg 3.63% 62.16%);
+}
+
+.third-card {
+    background-color: white;
+    height: 400px;
+    width: 300px;
+    margin-top: 100px;
+}
+
+.third-card ul {
+    list-style: none;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.third-card p {
+    margin-top: 10px;
+    margin-left: 36px;
+    color: hsl(30deg 40% 1.96%);
+}
+
+.third-card h1 {
+    margin-left: 36px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.third-card .price {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.third-card .small-text {
+    font-size: 10px;
+    color: hsl(60deg 3.63% 62.16%);
+}
