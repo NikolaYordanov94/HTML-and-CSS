@@ -1,0 +1,310 @@
+@import url('https://use.fontawesome.com/releases/v6.3.0/css/all.css');
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.logo {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.links {
+    margin-right: 60px;
+    margin-top: 30px;
+    display: flex;
+    gap: 32px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.first-part {
+    height: 680px;
+    background-color: hsl(197.21deg 100% 76.08%);
+    display: flex;
+    gap: 120px;
+}
+
+.donate-btn {
+    background-color: hsl(0deg 0% 100%);
+    padding: 20px 100px;
+    border-radius: 12px;
+    border: 1px black solid;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.donate-btn a {
+    text-decoration: none;
+    color: black;
+}
+
+.join-btn {
+    background-color: hsl(0deg 0% 0%);
+    padding: 20px 100px;
+    border-radius: 12px;
+    border: 1px black solid;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.join-btn a {
+    text-decoration: none;
+    color: hsl(174.55deg 100% 97.84%)
+}
+
+.picture {
+    height: 100%;
+    margin-right: 100px;
+}
+
+.picture img {
+    height: 100%;
+}
+
+.left-text {
+    margin-left: 210px;
+    width: 850px;
+}
+
+.left-text h1 {
+    margin-top: 210px;
+    font-size: 40px;
+}
+
+.left-text p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.left-text-paragraph {
+    width: 750px;
+}
+
+.second-part {
+    margin-bottom: 50px;
+}
+
+.second-part-heading {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.second-part-paragraph {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    margin-bottom: 100px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.cards i {
+    font-size: 180px;
+    color: hsl(197.21deg 100% 76.08%);
+    margin-bottom: 36px;
+}
+
+.first-card {
+    width: 500px;
+    margin-left: 100px;
+}
+
+.second-card {
+    width: 500px;
+}
+
+.third-card {
+    width: 500px;
+    margin-right: 100px;
+}
+
+.first-card h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.second-card h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.third-card h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.first-card p {
+    font-size: 24px
+}
+
+.second-card p {
+    font-size: 24px
+}
+
+.third-card p {
+    font-size: 24px
+}
+
+.our-work {
+    background-color: hsl(197.21deg 100% 76.08%);
+    height: 850px;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.our-work h1 {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.lists {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    font-size: 28px;
+}
+
+.left {
+    width: 550px;
+}
+
+.right {
+    width: 550px;
+}
+
+.left li {
+    padding-bottom: 60px;
+    list-style: none;
+}
+
+.right li {
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.our-mission {
+    background-color: hsl(0deg 0% 0%);
+    padding: 16px 100px;
+    border-radius: 10px;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.our-mission a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.animals-pictures {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.animals-pictures img {
+    width: 85%;
+    height: 100%;
+}
+
+.animals-pictures div {
+    height: 350px;
+}
+
+.first-picture {
+    margin-left: 80px;
+}
+
+.animals h1 {
+    text-align: center;
+    font-size: 58px;
+    font-weight: 800;
+    margin-bottom: 46px;
+}
+
+.animals p {
+    text-align: center;
+    font-size: 24px;
+}
+
+.animals {
+    margin-bottom: 50px;
+}
+
+.how-we-work h1 {
+    text-align: center;
+    font-size: 44px;
+    margin-bottom: 36px;
+}
+
+.first-card-work {
+    border: 1px solid hsl(0deg 0% 91.37%);
+    height: 300px;
+    width: 1500px;
+    margin-left: calc((1920px - 1500px) / 2);
+    margin-bottom: 40px;
+    border-radius: 12px;
+}
+
+.heading {
+    height: 100px;
+    padding: 40px;
+    background-color: hsl(197.21deg 100% 76.08%);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.text {
+    padding: 30px;
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.second-card-work {
+    border: 1px solid hsl(0deg 0% 91.37%);
+    height: 300px;
+    width: 1500px;
+    margin-left: calc((1920px - 1500px) / 2);
+    margin-bottom: 40px;
+    border-radius: 12px;
+}
+
+.third-card-work {
+    border: 1px solid hsl(0deg 0% 91.37%);
+    height: 300px;
+    width: 1500px;
+    margin-left: calc((1920px - 1500px) / 2);
+    margin-bottom: 40px;
+    border-radius: 12px;
+}
