@@ -13,9 +13,9 @@ The purpose of the course "HTML & CSS" is to provide basic knowledge of web tech
 - Flexbox
 - Media Queries
 
-## Languages
+## ➕Languages
 - HTML <img align="center" style="margin:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="25" height="25"/>
 - CSS <img align="center" style="margin:0.5rem" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="25" height="25"/>
 
-## Tools
+## 🛠️Tools
 - Visual Studio Code <img align="center" style="margin:0.5rem" src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" width="25" height="25"/>
